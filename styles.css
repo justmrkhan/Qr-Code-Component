@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main {
+  margin-top: 10%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 4%;
+}
+
+.qr-code {
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 3%;
+}
+.qr-title {
+  text-align: center;
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 18px;
+}
+
+.qr-text {
+  /* To make the text center aligned. */
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 28px;
+}
